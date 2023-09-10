@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SearchBar() {
   return (
-    <div className='flex mt-5 justify-center align-center'>
+    <div className='flex mt-5 justify-center align-center mb-5'>
       <div className='flex  w-56 h-14 absolute bg-primary p-6 font-semibold rounded-full text-2xl left-1/3'>
         <span className='text-white place-self-center'>All Categories</span>
         <span className='place-self-center'>
