@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import Hero from "./components/Hero";
 import FilterBar from "./components/FilterBar";
+import RecipeCard from "./components/RecipeCard";
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
         <Header/>
         <SearchBar/>
         <Hero/>
-        <FilterBar/>
+        <div className="flex gap-10">
+          <FilterBar/>
+          <RecipeCard/>
+        </div>
     </div>
   );
 }
